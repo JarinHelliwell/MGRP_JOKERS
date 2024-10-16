@@ -1,0 +1,13 @@
+h1 {
+     font-family: $font__heading;
+     color: $color__blue;
+}
+p {
+     color: $color__black;
+}
+a {
+     color: $color__pink;
+}
+a:hover {
+     color: $color__link-hover;
+}
