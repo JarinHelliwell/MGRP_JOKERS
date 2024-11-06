@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px) {
+    .header {
+         max-width: 800px;
+         margin-left: auto;
+         margin-right: auto;
+    }
+    .header li {
+         font-size: 1.3em;
+    }
+    .Summary {
+         margin: -1em 3em 2em 3em;
+         font-size: 1.2em;
+         max-width: 1000px;
+    }
+    .TeamBox img {
+         width: 10em;
+         padding: 1em;
+    }
+    .Portrait img {
+         width: 15em;
+    }
+    .Spoiler {
+         margin: 1em;
+    }
+}

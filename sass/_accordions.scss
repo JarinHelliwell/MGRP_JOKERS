@@ -1,0 +1,33 @@
+.Spoiler {
+     margin-top: 3em;
+}
+.Spoiler-top {
+     margin-bottom: -1em;
+     cursor: pointer;
+}
+.Spoiler-top:hover {
+     color: $color__link-hover;
+}
+.Spoiler-top h3::after {
+     content: '\221F';
+     transform: rotate(-45deg);
+     float: right;
+     line-height: 50%;
+     transition: all 150ms;
+}
+.Spoiler-body {
+     height: 0;
+     overflow: hidden;
+     transition: all 150ms;
+     padding-left: 3em;
+     padding-right: 3em;
+     border-top: 1px solid $color__princess;
+     border-bottom: 1px solid $color__princess;
+}
+.Spoiler.open .Spoiler-body {
+     height: auto;
+     padding: 3em;
+}
+.Spoiler.open .Spoiler-top h3::after {
+     transform: rotate(135deg);
+}

@@ -1,0 +1,50 @@
+@media screen and (max-width: 750px) {
+     .SeriesLogo {
+          width: 15em;
+     }
+     .header li {
+          font-size: 1em;
+     }
+     .Summary {
+          margin: -1em 2em 2em 3em;
+     }
+     .Summary p {
+          font-size: 1em;
+          padding-right: 0em;
+     }
+     .NamiColour {
+          font-size: 1.5em;
+     }
+     .TeamBox {
+          margin: 0em;
+     }
+     .TeamBox img {
+          width: 6em;
+          padding: 0.5em;
+     }
+     .Portrait img {
+          width: 10em;
+     }
+     .Character {
+          max-width: 400px;
+          margin: 1.5em;
+     }
+     .Bio {
+          font-size: 0.9em;
+          margin-right: -3em;
+          margin-left: 1em;
+          padding: 1em;
+     }
+     .Bio h2 {
+          font-size: 1.6em;
+     }
+     .Spoiler-body {
+          padding: 0;
+     }
+     .Spoiler.open .Spoiler-body {
+          padding: 0;
+     }
+     .Links p{
+          font-size: 1em;
+     }
+}

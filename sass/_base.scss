@@ -1,6 +1,84 @@
 body {
      margin: 0;
-     padding: 10vw;
-     font-family: $font__body;
-     background-color: $color__grey;
+     background-color: $color__black;
 }
+.site-logo {
+     padding: 1em;
+}
+/* Summary Styles */
+.Summary {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 2em;
+     position:relative;
+}
+.Summary p {
+     padding-top: 1em;
+     padding-right: 2em;
+}
+/* Navigation Box Styles */
+.TeamBox {
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     margin: 0em 3em;
+}
+.TeamBox img {
+     width: 14em;
+     padding: 1.5em;
+     transition: transform 300ms ease-in-out;
+}
+/* Team Styles */
+.PrincessColour {
+     color: $color__princess;
+     display:flex;
+     justify-content: center;
+}
+.Secret {
+     color: $color__link;
+}
+.Tempest {
+     color: $color__tempest;
+}
+.Deluge {
+     color: $color__deluge;
+}
+.Inferno {
+     color: $color__inferno;
+}
+.Quake {
+     color: $color__quake;
+}
+/* Picture Link Adjust */
+.TeamBox img:hover {
+     transform: scale(1.3);
+     transition: transform 300ms ease-in-out;
+}
+/* Character Profile Styles */
+.Character {
+     display:flex;
+     margin: 3em;
+     padding-top: 4em;
+     padding-bottom: 8em;
+}
+.Bio {
+     margin-top: -2em;
+     padding: 0em 3em;
+}
+.Bio ul {
+     margin-bottom: 2em;
+}
+.Portrait img{
+     width: 20em;
+}
+/* Viewport Awareness */
+.FadeIn {
+     opacity: 0;
+     transform: translateX(-40px);
+     transition: all 1s;
+ }
+ .FadeIn.in-view {
+     opacity: 1;
+     transform: translateX(0);
+ }

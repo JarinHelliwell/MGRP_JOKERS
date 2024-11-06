@@ -1,0 +1,13 @@
+@media screen and (min-width: 1300px) {
+    .Intro, .TeamBox, .Summary, .Character, .popup.show {
+         max-width: 1000px;
+         margin-left: auto;
+         margin-right: auto;
+         display:flex;
+    }
+    .header {
+         max-width: 1500px;
+         margin-left: auto;
+         margin-right: auto;
+    }
+}
